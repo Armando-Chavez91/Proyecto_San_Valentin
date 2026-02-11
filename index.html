@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para ti 💘</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main class="card">
+    <header class="top">
+      <span class="badge">San Valentín</span>
+      <h1 id="title">Tengo algo para ti</h1>
+      <p class="subtitle">Hecho con cariño.</p>
+    </header>
+
+    <section class="content">
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Abrir carta">
+        <div class="env-back"></div>
+        <div class="env-front"></div>
+        <div class="letter" id="letter">
+          <h2>Hola, <span id="name">Ana Sofia</span> 💖</h2>
+          <p id="msg">
+            Gracias por todos los momentos que me has regalado a tu lado, por todo lo que 
+            has soportado por el hecho de estar a mi lado, te deseo siempre lo mejor del mundo  
+          </p>
+          <p class="small">— <span id="from">Rafael Chavez Tu novio</span></p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="row">
+          <div class="box">
+            <p class="label">Tiempo desde</p>
+            <p class="value" id="sinceText">23 de septiembre del 2023 ✨</p>
+          </div>
+          <div class="box">
+            <p class="label">Han pasado</p>
+            <p class="value"><span id="days">876</span> días</p>
+          </div>
+        </div>
+
+        <button class="btn" id="surpriseBtn">Mostrar sorpresa 🎁</button>
+
+        <div class="surprise" id="surprise" hidden>
+          <p class="big">💘 Te elijo hoy y siempre 💘</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
